@@ -1,0 +1,15 @@
+[project]
+name = "warung-loyalty"
+description = ""
+authors = []
+telemetry = true
+cache_dir = "./.clarinet"
+
+[contracts.counter]
+path = "contracts/warung-loyalty.clar"
+clarity_version = 2
+epoch = 2.4
+
+[repl]
+costs_version = 2
+parser_version = 2
